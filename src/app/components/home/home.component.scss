@@ -1,12 +1,12 @@
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 100px;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 30px;
-    color: white;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-around;
+    align-items: self-start;
+    padding: 100px 80px;
+    max-width: 90vw;
+    color: #fff;
+
 }
 
 .card-container {
@@ -14,14 +14,18 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    height: 100%;
+    
+
 }
 .card-item {
     display: flex;
+    height: 100%;
     flex-direction: column;
     background: rgb(0, 0, 0);
-    min-width: 20vw;
     border: 1px solid white;
     mat-card-subtitle {
+      
         color: rgb(199, 199, 199);
     }
 }

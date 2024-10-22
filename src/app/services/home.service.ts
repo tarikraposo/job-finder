@@ -7,7 +7,6 @@ import { Observable } from 'rxjs'; import { DomSanitizer, SafeUrl } from '@angul
   providedIn: 'root'
 })
 export class HomeService {
-  // apiUrl = "https://api.github.com/users";
   // apiUrl = "https://jobdataapi.com/api/jobs/?country_code=BR";
   apiUrl = "http://localhost:3000/results"
 
